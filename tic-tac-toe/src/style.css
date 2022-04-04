@@ -1,0 +1,35 @@
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  .game-point {
+      margin-left: 30rem;
+  }   
+  .game-status {
+    margin-right: 35rem;
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+  .btn {
+    margin-top: 1rem;
+    border: 1px solid grey;
+    font-size: medium;
+}
+  
+  
